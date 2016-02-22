@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     public void Onclick(View view)
     {
         textView.setText("Hello World!");
+        //Test
         String url = "http://192.168.199.222:888/api/Blog/Detail/100";
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url,
                 new Response.Listener<JSONObject>()

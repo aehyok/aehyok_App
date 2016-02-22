@@ -12,6 +12,7 @@ public class RequestProxy {
     private  static RequestQueue requestQueue;
     public void Get(Context context)
     {
+        //aehyok app
         requestQueue= Volley.newRequestQueue(context);
 
     }
